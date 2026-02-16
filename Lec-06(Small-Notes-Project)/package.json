@@ -1,0 +1,19 @@
+{
+  "name": "lec-06(small-notes-project)",
+  "version": "1.0.0",
+  "description": "1. Intialize a project with npm \r 2. express install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
