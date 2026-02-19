@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const dotenv = require("dotenv");
 
 dotenv.config();
-mongoose.connect(`mongodb+srv://pateltirth5442_db_user:${process.env.DB_PASSSWORD}@cluster0.xnctlbs.mongodb.net/`)
+mongoose.connect(`mongodb+srv://pateltirth5442_db_user:${process.env.DB_PASSSWORD}@cluster0.xnctlbs.mongodb.net/?appName=Cluster0/`)
 .then(() =>{
     console.log("MongoDB connected");
 })
